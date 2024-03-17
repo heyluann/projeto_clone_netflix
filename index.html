@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clone Netflix</title>
+  <link rel="stylesheet" href="src/reset.css">
+  <link rel="stylesheet" href="src/header.css">
+  <link rel="stylesheet" href="src/main.css">
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="src/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="app__background">
+    <div class="app__hero">
+
+			<header class="navigation">
+				<!-- Parte de navegação do menu / Cabeçalho do site-->
+                <img src="./img/logo.svg" alt="Logo da Netflix" class="navigation__logo">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item"><a href="#">Início</a></li>
+                    <li class="navigation__list-item"><a href="#">Séries</a></li>
+                    <li class="navigation__list-item"><a href="#">Filmes</a></li>
+                    <li class="navigation__list-item"><a href="#">Bombando</a></li>
+                    <li class="navigation__list-item"><a href="#">Minha lista</a></li>
+                </ul>
+
+                <div class="navigation__links">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-bell" style="color: #ffffff;"></i>
+                    <div class="navigation__links-profile">
+                        <img src="./img/user.svg" alt="Imagem do usuário" class="profile">
+                        <i class="fa-solid fa-caret-down" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+			</header>
+
+		 <!-- Main -->
+      <main>
+        <!-- Banner -->
+        <div class="banner">
+          <img class="banner__poster" src="img/poster.svg" alt="Banner filme
+            Spiderhead" />
+          <span class="banner__subtitle">Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.</span>
+
+          <div class="banner__btn">
+            <button type="submit" class="banner__btn--play">
+              <i class="fas fa-play"></i>
+
+              Assistir
+            </button>
+            <button class="banner__btn--info">
+              <i class="fas fa-thin fa-circle-info"></i>Mais informações
+            </button>
+          </div>
+        </div>
+        <!-- Fim do Banner -->
+
+        <div class="category">
+          <p class="category__title">Minha lista</p>
+          <div class="category__items">
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/mylist/poster_01.svg" alt="Série do bojack" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/mylist/poster_02.svg" alt="Ozark" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/mylist/poster_03.svg" alt="A vizinha da mulher na janela" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/mylist/poster_04.svg" alt="Série Breaking Bad" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/mylist/poster_05.svg" alt="The end of the f**ing world" class="category__items__item-img">
+            </a>
+          </div>
+
+          <p class="category__title">Em alta</p>
+          <div class="category__items">
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/trending/poster_01.svg" alt="Stranger Things" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/trending/poster_02.svg" alt="The Umbrella academy" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/trending/poster_03.svg" alt="Peaky Blinders" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/trending/poster_04.svg" alt="Arremessando alto" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/trending/poster_05.svg" alt="Amor & Gelato" class="category__items__item-img">
+            </a>
+          </div>
+
+          <p class="category__title">Séries estrangeiras</p>
+          <div class="category__items">
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/foreign-series/poster_01.svg" alt="Queen Loretta" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/foreign-series/poster_02.svg" alt="As 7 vidas de Lea" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/foreign-series/poster_03.svg" alt="Young Royals" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/foreign-series/poster_04.svg" alt="Dark" class="category__items__item-img">
+            </a>
+
+            <a href="#" class="category__items__item -animation">
+              <img src="./img/foreign-series/poster_05.svg" alt="Bem-vindos ao Éden" class="category__items__item-img">
+            </a>
+          </div>
+
+          <p class="category__title">Séries excêntricas de humor ácido</p>
+
+          <div class="wrapper">
+            <section id="section1">
+              <a href="#section3" class="arrow__btn"></a>
+
+              <div class="item -animation -animation">
+                <img src="./img/foreign-series/poster_02.svg" alt="As 7 vidas de Lea" />
+              </div>
+
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_01.svg" alt="Queen Loretta" />
+              </div>
+
+              <div class="item -animation">
+                <img src="./img/trending/poster_02.svg" alt="The Umbrella academy" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/mylist/poster_04.svg" alt="Série Breaking Bad" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_05.svg" alt="Bem-vindos ao Éden" />
+              </div>
+              <a href="#section2" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section2">
+              <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_05.svg" alt="Bem vindos ao Éden" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_04.svg" alt="Dark" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/mylist/poster_01.svg" alt="Série do Bojack" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/trending/poster_04.svg" alt="Arremessando alto" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/trending/poster_04.svg" alt="Arremessando alto" />
+              </div>
+              <a href="#section3" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+            <section id="section3">
+              <a href="#section2" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_04.svg" alt="Dark" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_01.svg" alt="Queen Loretta" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/foreign-series/poster_02.svg" alt="as 7 vidas de Lea" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/mylist/poster_01.svg" alt="Série do bojack" />
+              </div>
+              <div class="item -animation">
+                <img src="./img/trending/poster_02.svg" alt="The Umbrella academy" />
+              </div>
+              <a href="#section1" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+            </section>
+          </div>
+        </div>
+
+        
+			</main>
+
+      <footer>
+        <div class="social-links">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <div class="link-content">
+          <div class="link-content__info">
+            <ul>
+              <li>Idioma e legendas</li>
+              <li>Imprensa</li>
+              <li>Privacidade</li>
+              <li>Entre em contato</li>
+            </ul>
+            <ul>
+              <li>Audiodescrição</li>
+              <li>Relações com investidores</li>
+              <li>Avisos legais</li>
+            </ul>
+            <ul>
+              <li>Centro de ajuda</li>
+              <li>Carreiras</li>
+              <li>Preferência de cookies</li>
+            </ul>
+            <ul>
+              <li>Cartão pré-pago</li>
+              <li>Termos de uso</li>
+              <li>informações corporativas</li>
+            </ul>
+          </div>
+          <div class="link-content__service">
+            <button class="link-content__service-code">Código do serviço</button>
+          </div>
+          <div class="link-content__copyright">
+            <span>© 1997-2022 Netflix, Inc.&nbsp;&nbsp;&lrm;</span>
+          </div>
+      </footer>   
+</body>
+</html>

@@ -1,0 +1,39 @@
+.navigation {
+    padding-top: 1.3em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__logo {
+    width: 100px;
+    margin-right: 3em;
+  }
+
+  .navigation__list {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  .navigation__list-item a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .navigation__links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .fa-magnifying-glass,
+  .fa-bell {
+    font-size: 15px;
+  }
+
+  .navigation__links-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
